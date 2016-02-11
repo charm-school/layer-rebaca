@@ -1,0 +1,5 @@
+name: rebacca
+summary: deploys the rebacca NFV test automation tooling
+description: Do you know cucumber? rebacca is for you
+subordinate: false
+

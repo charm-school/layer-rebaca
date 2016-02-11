@@ -1,0 +1,9 @@
+options:
+  rebacca_url:
+    type: string
+    default:
+    description: Where to download rebacca
+  rebacca_sum:
+    type: string
+    default:
+    description: SHA1 sum of the rebacca_url
