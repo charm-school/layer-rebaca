@@ -1,9 +1,9 @@
 options:
   rebacca_url:
     type: string
-    default:
+    default: https://releases.hashicorp.com/consul/0.6.3/consul_0.6.3_linux_amd64.zip
     description: Where to download rebacca
   rebacca_sum:
     type: string
-    default:
-    description: SHA1 sum of the rebacca_url
+    default: b0532c61fec4a4f6d130c893fd8954ec007a6ad93effbe283a39224ed237e250
+    description: SHA256 sum of the rebacca_url

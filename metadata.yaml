@@ -1,7 +1,12 @@
-name: rebacca
+name: rebaca
 summary: deploys the rebacca NFV test automation tooling
 description: Do you know cucumber? rebacca is for you
 subordinate: false
 requires:
   database:
     interface: mysql
+  log-client:
+    interface: rebaca
+provides:
+  logging:
+    interface: rebaca
